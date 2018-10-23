@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HTW memo</title>
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<header>
+	<img src="https://www.dfhi-isfates.eu/wp-content/themes/fbo-dfhi/assets/img/logo-dfhi.svg" width="10%">
+	<h1>Liens important - L2 Info</h1>
+</header>
+
+<nav id="nav">
+	<button onclick="replaceContent(this, displayedData, document.getElementById('htw'));">HTW Saar</button>
+	<button onclick="replaceContent(this, displayedData, document.getElementById('cours'));">Cours</button>
+</nav>
+
+<main>
+	<div id="htw">
+		<a target="_blanc" href="https://raumservice.htwsaar.de">Stundenplan</a>
+		<a target="_blanc" href="https://stl-virt.htwsaar.de/ovirt-engine/sso/login.html">Virtual Machine</a>
+		<a target="_blanc" href="https://stl-wiki.htwsaar.de/informatik/doku.php?id=labore:stl">Labore STL</a>
+		<a target="_blanc" href="https://stl-wiki.htwsaar.de/informatik/doku.php">STL doku-wiki</a>
+		<a target="_blanc" href="https://stdservice.htwsaar.de/index.php?mid=998&muid=0&muuid=0">Student Service</a>
+		<a target="_blanc" href="https://clix.htwsaar.de/index.jsp?dmy=1540237493556">Clix Service</a>
+	</div>
+	<div id="cours">
+		<a target="_blanc" href="https://swl.htwsaar.de/lehre/ws18/db/">Datenbanken I</a>
+		<a target="_blanc" href="https://www.htwsaar.de/ingwi/fakultaet/personen/profile/helmut-folz/prog1/folien2017">Programmierung I Vorlesung</a>
+		<a target="_blanc" href="https://mathcoach.htwsaar.de/openolat/dmz/">Javascript</a>
+	</div>
+</main>
+
+<script type="text/javascript" src="./script.js"></script>
+</body>
+</html>

@@ -1,0 +1,61 @@
+@font-face {
+    font-family: 'ubuntu';
+    src: url('./font/Ubuntu.ttf');
+}
+* {font-family: 'ubuntu';}
+html {font-size: 100%;}
+body {font-size: 1em;}
+body {background-color: #F9C416; padding: 0; margin: 0;}
+a {color: initial; text-decoration: none;}
+
+header {display: flex; justify-content: center; margin-top: 50px; flex-direction: column; align-items: center;}
+header img {}
+
+nav {margin-top: 20px; display: flex; justify-content: center;}
+
+main {margin-top: 20px;}
+
+nav button {
+	background-color: rgba(0,0,0,0); 
+	padding: 5px 10px 5px 10px; 
+	width: 220px; 
+	margin: 0 20px 0 20px;
+	border: solid 3px #000; 
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.6);
+	font-size: 2em;
+	cursor: pointer;
+	transition-duration: 0.3s;
+}
+nav button:hover, nav button:first-child {
+	background-color: #000;
+	color: #F9C416;
+}
+
+#htw, #cours {display: flex; flex-direction: column; justify-content: center; align-items: center; margin-top: 30px;}
+#htw a, #cours a {
+	display: inline-block; 
+	background-color: #000;
+	font-size: 1.5em; 
+	color: #F9C416; 
+	border-radius: 10px; 
+	margin: 7px;
+	padding: 5px 10px 5px 10px;
+	border: solid 2px #000;
+	box-shadow: 0 0 10px rgba(0,0,0,0.6);
+	transition-duration: 0.3s;
+}
+#htw a:hover, #cours a:hover {border: solid 2px #000; color: #000; background-color: rgba(0,0,0,0);}
+
+#cours {display: none;}
+
+
+@media only screen and (max-width: 768px){
+
+body {font-size: 0.7em;}
+header {margin-top: 20px;}
+nav {font-size: 0.7em;}
+nav button {padding: 20px 0 20px 0;}
+img {width: 40%;}
+
+}
