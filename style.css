@@ -49,6 +49,8 @@ nav button:hover, nav button:first-child {
 
 #cours {display: none;}
 
+.intersection {background-color: #000; height: 3px; width: 40px; border-radius: 20px; opacity: 0.3;}
+
 
 @media only screen and (max-width: 768px){
 
