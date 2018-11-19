@@ -3,7 +3,6 @@
 <head>
 	<title>HTW memo</title>
 
-	<link rel="icon" type="image/png" href="https://www.dfhi-isfates.eu/wp-content/themes/fbo-dfhi/assets/img/favicon/favicon-32x32.png" />
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
@@ -16,6 +15,7 @@
 <nav id="nav">
 	<button onclick="replaceContent(this, displayedData, document.getElementById('htw'));">HTW Saar</button>
 	<button onclick="replaceContent(this, displayedData, document.getElementById('cours'));">Cours</button>
+	<button onclick="replaceContent(this, displayedData, document.getElementById('dates'));">Dates</button>
 </nav>
 
 <main>
@@ -37,8 +37,9 @@
 		<p class="intersection"></p>
 		<a target="_blanc" href="http://www.guillaumegronier.com/2018-htw/">Mensch-Maschine-Schnittstelle</a>
 	</div>
+	<div id="dates"></div>
 </main>
-
+<script type="text/javascript" src="./data.js"></script>
 <script type="text/javascript" src="./script.js"></script>
 </body>
 </html>

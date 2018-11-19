@@ -32,7 +32,9 @@ nav button:hover, nav button:first-child {
 	color: #F9C416;
 }
 
-#htw, #cours {display: flex; flex-direction: column; justify-content: center; align-items: center; margin-top: 30px;}
+#htw, #cours, #dates
+{display: flex; flex-direction: column; justify-content: center; align-items: center; margin-top: 30px;}
+
 #htw a, #cours a {
 	display: inline-block; 
 	background-color: #000;
