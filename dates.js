@@ -1,4 +1,4 @@
-const dates = `
+var dates = `
 
 
 Wednesday 06.02.2019 : Partiel d'anglais
