@@ -32,7 +32,7 @@ nav button:hover, nav button:first-child {
 	color: #F9C416;
 }
 
-#htw, #cours, #dates
+#htw, #cours, #datesCtn
 {display: flex; flex-direction: column; justify-content: center; align-items: center; margin-top: 30px;}
 
 #htw a, #cours a {
@@ -49,17 +49,47 @@ nav button:hover, nav button:first-child {
 }
 #htw a:hover, #cours a:hover {border: solid 2px #000; color: #000; background-color: rgba(0,0,0,0);}
 
-#cours, #dates {display: none;}
+#cours, #datesCtn {display: none;}
+
+
+
 
 .intersection {background-color: #000; height: 3px; width: 40px; border-radius: 20px; opacity: 0.3;}
+
+#datesCtn #dates {
+	display: flex; 
+	border: solid 2px #000; 
+	margin: 10px 0; 
+	border-radius: 15px; 
+	width: 50%; 
+	box-shadow: 0 0 10px rgba(0,0,0,0.6);
+}
+#datesCtn #text {display: flex; align-items: center; padding: 0 10px; font-size: 1.2rem;}
+#datesCtn #datesString {
+	background: #000; 
+	color: rgb(249, 196, 22); 
+	padding: 10px; 
+	border-radius: 10px 0 0 10px;
+	min-width: 15%;
+}
+#datesCtn #datesString p {margin: 0; font-size: 1rem; text-align: center;}
+#datesCtn #datesString p:nth-child(1) {font-size: 1.2rem;}
+#datesCtn #datesString p:nth-child(2) {font-size: 2.3rem;}
+#datesCtn #datesString p:nth-child(3) {font-size: 0.8rem;}
 
 
 @media only screen and (max-width: 768px){
 
 body {font-size: 0.7em;}
 header {margin-top: 20px;}
-nav {font-size: 0.7em;}
-nav button {padding: 20px 0 20px 0;}
+nav {font-size: 0.7rem;}
+nav button {padding: 10px 0 10px 0; margin: 5px;}
 img {width: 40%;}
+
+#datesCtn #dates {width: 90%;}
+#datesCtn #text {font-size: 1rem;}
+#datesCtn #datesString p:nth-child(1) {font-size: 0.8rem;}
+#datesCtn #datesString p:nth-child(2) {font-size: 2.1rem;}
+#datesCtn #datesString p:nth-child(3) {font-size: 0.6rem;}
 
 }
