@@ -49,7 +49,7 @@ nav button:hover, nav button:first-child {
 }
 #htw a:hover, #cours a:hover {border: solid 2px #000; color: #000; background-color: rgba(0,0,0,0);}
 
-#cours {display: none;}
+#cours, #dates {display: none;}
 
 .intersection {background-color: #000; height: 3px; width: 40px; border-radius: 20px; opacity: 0.3;}
 
