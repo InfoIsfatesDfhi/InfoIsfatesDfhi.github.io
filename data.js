@@ -1,11 +1,10 @@
-var datas = `
+const dates = `
+
+
+Wednesday 06.02.2019 : Partiel d'anglais
+
+Monday 25.02.2019 : Partiel Programmierung I
 
 
 
-Lundi 23.03.2019 : DS test
-
-
-Date  : test
 `;
-
-
