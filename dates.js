@@ -1,4 +1,5 @@
 /*
+*
 * Insert new date in the js variable bellow
 * 1 line for each date
 * Please order the date from the nearest to the latest
