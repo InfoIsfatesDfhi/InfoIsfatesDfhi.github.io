@@ -13,9 +13,11 @@
 var dates = `
 
 
-Wednesday 06.02.2019 : Partiel d'anglais
+Wednesday 06.02.2019 : Klausur Englisch
 
-Monday 25.02.2019 : Partiel Programmierung I
+Monday 25.02.2019 : Klusur Programmierung I
+
+Friday 01.03.2019 : Abgabe Mensch/Maschine
 
 
 
