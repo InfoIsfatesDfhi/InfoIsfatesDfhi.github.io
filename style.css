@@ -47,7 +47,7 @@ nav button:hover, nav button:first-child {
 	box-shadow: 0 0 10px rgba(0,0,0,0.6);
 	transition-duration: 0.3s;
 }
-#htw a:hover, #cours a:hover {border: solid 2px #000; color: #000; background-color: rgba(0,0,0,0);}
+#htw a:hover, #cours a:hover, #addDateButton:hover {border: solid 2px #000; color: #000; background-color: rgba(0,0,0,0);}
 
 #cours, #datesCtn {display: none;}
 
@@ -56,6 +56,16 @@ nav button:hover, nav button:first-child {
 
 .intersection {background-color: #000; height: 3px; width: 40px; border-radius: 20px; opacity: 0.3;}
 
+#addDateButton {
+	background: #000; 
+	color: rgb(249, 196, 22);
+	border-radius: 40px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.6);
+	padding: 5px 10px;
+	margin: 20px 0;
+	border: solid 2px #000;
+	transition-duration: 0.3s;
+}
 #datesCtn #dates {
 	display: flex; 
 	border: solid 2px #000; 
@@ -86,6 +96,7 @@ nav {font-size: 0.7rem;}
 nav button {padding: 10px 0 10px 0; margin: 5px;}
 img {width: 40%;}
 
+#addDateButton {margin-top: 0;}
 #datesCtn #dates {width: 90%;}
 #datesCtn #text {font-size: 1rem;}
 #datesCtn #datesString p:nth-child(1) {font-size: 0.8rem;}
