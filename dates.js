@@ -18,6 +18,8 @@ Monday 25.02.2019 : Klausur Programmierung I
 
 Friday 01.03.2019 : Abgabe Mensch/Maschine
 
+Friday 29.03.2019 : Klausur JavaScript
+
 
 
 `;
