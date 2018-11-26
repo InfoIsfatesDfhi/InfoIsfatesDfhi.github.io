@@ -12,7 +12,7 @@
 var dates = `
 
 
-Wednesday 06.02.2019 : Klausur Englisch && Klausur EI
+Wednesday 06.02.2019 : Klausur Englisch + Klausur EI
 
 Monday 25.02.2019 : Klausur Programmierung I
 
