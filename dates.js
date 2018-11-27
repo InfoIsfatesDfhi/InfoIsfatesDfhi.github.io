@@ -20,6 +20,8 @@ Friday 01.03.2019 : Abgabe Mensch/Maschine
 
 Friday 29.03.2019 : Klausur JavaScript
 
+Wednesday 06.03.2019 : Klausur Datenbanken
+
 
 
 `;
