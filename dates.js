@@ -14,13 +14,15 @@ var dates = `
 
 Wednesday 06.02.2019 : Klausur Englisch + Klausur EI
 
+Friday 18.02.2019 : Klausur JavaScript 10h
+
 Monday 25.02.2019 : Klausur Programmierung I
 
 Friday 01.03.2019 : Abgabe Mensch/Maschine
 
 Wednesday 06.03.2019 : Klausur Datenbanken
 
-Friday 22.02.2019 : Klausur JavaScript
+
 
 
 
