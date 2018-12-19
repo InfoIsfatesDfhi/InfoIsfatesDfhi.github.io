@@ -11,6 +11,8 @@
 
 var dates = `
 
+Wednesday 23.01.2019 : Klausur Deutsch
+
 Wednesday 06.02.2019 : Klausur Englisch + Klausur EI
 
 Monday 18.02.2019 : Klausur JavaScript 10h
