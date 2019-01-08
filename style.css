@@ -111,7 +111,7 @@ img {width: 40%;}
 /*---- LET IT SNOW TROLL ----*/
 /*https://codepen.io/jpschwinghamer/pen/QwwbgO*/
 .snow-container {
-  position: absolute;
+  position: fixed;
   height: 99%;
   width: 100%;
   max-width: 100%;
