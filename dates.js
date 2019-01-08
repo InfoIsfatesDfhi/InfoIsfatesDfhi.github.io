@@ -23,4 +23,6 @@ Friday 01.03.2019 : Abgabe Mensch/Maschine
 
 Wednesday 06.03.2019 : Klausur Datenbanken
 
-`;
+Friday 29.03.2019 : Rendre rapport individuel UX
+
+`
