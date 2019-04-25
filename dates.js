@@ -12,4 +12,11 @@
 * Friday 29.03.2019 : Rendre rapport individuel UX
 */
 
+/*
+* Examples :
+* Wednesday 06.02.2019 : Klausur Englisch + Klausur EI
+* Tuesday 12.02.2018 : Cours Mensch Maschine Schnittstelle
+* Monday 18.02.2019 : Klausur JavaScript 10h
+*/
+
 var dates = ``
