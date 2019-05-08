@@ -19,4 +19,8 @@
 * Monday 18.02.2019 : Klausur JavaScript 10h
 */
 
-var dates = ``
+var dates = `
+
+Wednesday 03.07.2019 : Klausur Deutsch
+
+`
